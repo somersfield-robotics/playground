@@ -1,0 +1,6 @@
+Start with the intake facing the flags 
+Move backward 24 inches
+Turn left 90 degrees 
+Move backward 36 inches 
+Flip cap
+Turn right 90 degrees
