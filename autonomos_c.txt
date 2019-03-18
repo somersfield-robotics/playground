@@ -1,1 +1,5 @@
-
+Cameron Pimentel
+1. shoot preload to top flag
+2. turn right 90 degrees
+3. move flipper first into cap
+4. move foward and back to take ball 
