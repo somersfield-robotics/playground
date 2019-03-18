@@ -9,7 +9,7 @@
 *.h++ text
 *.hh text
 *.vex text
-
+*.html text
 # Compiled Object files
 *.slo binary
 *.lo binary
