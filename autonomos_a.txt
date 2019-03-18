@@ -1,1 +1,18 @@
+Cameron Pimentel
+1. shoot preload to middle flag
+2. move foward into the bottom flag 
+3. move back half way to the starting square 
+4. turn left 270 degrees
+5. move fowards flipper first to the cap
+6. flip cap
+7. turn right 45 degrees
+8. go flipper first to the second cap, and push foward and back, to get ball out
+10. turn left 45 degrees
+11. move towards the starting square
+12. turn right 90 degrees
+13. move back inline with platform
+14. turn left 90 degrees
+15. put up fliper
+16. go onto platform
+17. end
 
