@@ -1,1 +1,15 @@
-
+Drive forward 8 inches
+Shoot the preload
+drive forward and toggle the low flag, 32 inches
+reverse backwards 10 inches
+turn left 90 degrees
+drive to middle flag, 48 inches
+turn right 45 degrees drive forward 6 inches
+reverse back 20 inches
+flip cap
+turn right 45 degrees 
+reverse back 20 inches
+pushes cap
+turn left 45 degrees
+drive onto platform
+PARK
