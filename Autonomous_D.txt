@@ -1,1 +1,8 @@
-
+shoot preload
+turn right 45 degrees
+reverse backwards 40 inches
+flip cap
+turn left 45 degrees
+drive forward 36 inches, pushing cap
+turn right 45 degrees
+drive onto platform, 20 inches
