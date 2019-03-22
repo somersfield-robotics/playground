@@ -1,1 +1,5 @@
-
+hit middle flag
+go to bottm flag 
+return to start
+reverse 1 block
+turn 90 deg. move to platform
