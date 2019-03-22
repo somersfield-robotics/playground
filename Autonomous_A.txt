@@ -1,7 +1,6 @@
-hit middle flag
-go to bottm flag 
-return to start
-reverse 1 block
+shoot preload
+move forward 72 inches
+move backwards 96 inches
 turn 90 deg. move to platform
 
 C++:
@@ -13,19 +12,14 @@ Start with the intake facing the flags
 shootPreload();
 
 //STEP 2
-// Move forward 36 inches
+// Move forward 72 inches
 
-driveDistance(36);
+driveDistance(72);
 
 //STEP 3
-// Move backwards 36 inches
+// Move backwards 96 inches
 
-driveDistance(-36);
-
-//STEP 4
-// Move backwards 24 inches
-
-driveDistance(24);
+driveDistance(-96);
 
 //STEP 5
 // Turn 90 degrees
@@ -36,6 +30,6 @@ driveTurnRightDegrees(90);
 // raiseFlipper
 
 //STEP 7
-// Move forwards 30 inches
+// Move forwards 60 inches
 
-driveDistance(30)
+driveDistance(60)
