@@ -1,1 +1,8 @@
-
+reverse to back of field(1 block)
+fire ball at top flag
+turn 90 deg.
+move to straight to cap
+flip
+reverse 1 block
+turn 90 deg. lift flipper
+move 1 block forward
