@@ -1,8 +1,35 @@
-reverse to back of field(1 block)
-fire ball at top flag
-turn 90 deg.
-move to straight to cap
-flip
-reverse 1 block
-turn 90 deg. lift flipper
-move 1 block forward
+shoot preload
+move forward 72 inches
+move backwards 96 inches
+turn -90 deg. move to platform
+
+C++:
+Start with the intake facing the flags
+
+//STEP 1
+// Shoot preload
+
+shootPreload();
+
+//STEP 2
+// Move forward 72 inches
+
+driveDistance(72);
+
+//STEP 3
+// Move backwards 96 inches
+
+driveDistance(96);
+
+//STEP 5
+// Turn -90 degrees
+
+driveTurnRightDegrees(-90);
+
+//STEP 6
+// raiseFlipper
+
+//STEP 7
+// Move forwards 60 inches
+
+driveDistance(60)
