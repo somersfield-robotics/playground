@@ -34,7 +34,7 @@ driveTurnLeftDegrees(90);
 //STEP 6
 // Move forwards 24 inches
 
-driveDistance
+driveDistance(24)
 
 
 
