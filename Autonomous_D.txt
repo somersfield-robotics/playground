@@ -1,1 +1,5 @@
-
+hit middle flag
+go to low flag
+reverse to start (-1 block)
+turn -90 deg.
+move to platofrm
