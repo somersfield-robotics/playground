@@ -1,8 +1,17 @@
-shoot preload
-turn right 45 degrees
-reverse backwards 40 inches
-flip cap
-turn left 45 degrees
-drive forward 36 inches, pushing cap
-turn right 45 degrees
-drive onto platform, 20 inches
+//shoot preload
+  shootPreload();
+//turn right 45 degrees
+  driveTurnRightDegrees(45);
+//reverse backwards 40 inches
+  driveDistance(-40);
+//flip cap
+  raiseFlipper();
+  lowerFlipper();
+//turn left 45 degrees
+  driveTurnLeftDegrees(45);
+//drive forward 36 inches, pushing cap
+  driveDistance(36);
+//turn right 45 degrees
+  driveTurnRgghtDegrees(45);
+//drive onto platform, 20 inches
+  driveDistance(20);
