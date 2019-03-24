@@ -1,0 +1,25 @@
+
+// 
+// Pseudocode
+// start with fillper facing the cone
+
+// move forward 48 inches
+driveDistaance(48)
+// Use flipper
+raiseFlipper();
+// Bring flipper down
+lowerFlipper();
+// turn 45 degrees to the left
+driveTurnLeftDegrees(45);
+// use flipper
+raiseFlipper();
+// Bring flipper down
+raiseFlipper();
+// turn left 135 degrees 
+driveTurnLeftDegrees(135):
+// move forward 48 inches
+driveDistance(48)
+// turn left 135 degrees 
+driveTurnLeftDegrees(135);
+//  move forward 48 inches
+driveDistance(48);
