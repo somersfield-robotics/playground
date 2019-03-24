@@ -14,7 +14,7 @@ driveTurnLeftDegrees(45);
 // use flipper
 raiseFlipper();
 // Bring flipper down
-raiseFlipper();
+lowerFlipper();
 // turn left 135 degrees 
 driveTurnLeftDegrees(135):
 // move forward 48 inches
