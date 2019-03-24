@@ -1,10 +1,25 @@
-shoot preload
-move forward 72 inches
-move backwards 96 inches
-turn -90 deg. move to platform
+// pseudocode
+// start with the intake facing the flags
+
+// shoot preload
+// move forward 72 inches
+// move backwards 96 inches
+// turn 90 deg.
+// move forward 87 inches
+// flip cap
+// turn 90 deg.
+// move forward 87 inches
+// flip cap
+// turn 90 deg.
+// move forward 87 inches
+// turn 90 deg.
+// move forward 87 inches
+// raise flipper
+// climb platforms                     
+// lower flipper
 
 C++:
-Start with the intake facing the flags
+start with the intake facing the flags
 
 //STEP 1
 // Shoot preload
@@ -21,15 +36,46 @@ driveDistance(72);
 
 driveDistance(96);
 
-//STEP 5
-// Turn -90 degrees
+//STEP 4
+// Turn 90 degrees
 
 driveTurnRightDegrees(-90);
 
-//STEP 6
-// raiseFlipper
+//STEP 5 
+// move forward 87 inches
 
-//STEP 7
-// Move forwards 60 inches
+
+//STEP 6
+// flip cap
 
 driveDistance(60)
+
+// STEP 7
+// turn 90 degrees
+
+// STEP 8
+// move forward 87 inches
+
+// STEP 9
+// flip cap
+
+// STEP 10
+// turn 90 degrees
+
+// STEP 11
+// move forward 87 inches
+
+// STEP 12
+// turn 90 degrees
+
+// STEP 13
+// move forward 87 inches
+
+// STEP 14
+// raise flipper
+
+// STEP 15
+// climb platforms
+
+// STEP 16
+// lower flipper
