@@ -1,0 +1,13 @@
+
+int joystickSensitivityFunction(int joystickValue)
+{
+  // Function to adjust joystick sensitivity using cubic function
+  int newValue = 0;
+  int maxRange = 100;
+  int motorPower = 127;
+
+  // Cubic function to scale joystick to motor
+  newValue = ( joystickValue ^ 3 ) / ( maxRange ^ 3 ) * motorPower;
+  
+  return(newValue);
+}
