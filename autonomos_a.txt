@@ -1,4 +1,5 @@
 Cameron Pimentel
+Pseudocode:
 1. shoot preload to middle flag
 2. move foward into the bottom flag 
 3. move back half way to the starting square 
@@ -7,12 +8,53 @@ Cameron Pimentel
 6. flip cap
 7. turn right 45 degrees
 8. go flipper first to the second cap, and push foward and back, to get ball out
-10. turn left 45 degrees
-11. move towards the starting square
-12. turn right 90 degrees
-13. move back inline with platform
-14. turn left 90 degrees
-15. put up fliper
-16. go onto platform
-17. end
+9. turn left 45 degrees
+10. move towards the starting square
+11. turn right 90 degrees
+12. move back inline with platform
+13. turn left 90 degrees
+14. put up fliper
+15. go onto platform
+16. end
 
+C++
+Intake Facing Flags
+
+//STEP 1
+//shootPreload()
+
+//STEP 2
+//driveDistance()
+
+//STEP 3
+//driveDistance(-)
+
+//STEP 4
+//driveTurnLeftDegrees(270)
+
+//STEP 5
+//driveDistance()
+
+//STEP 6
+//raiseFlipper()
+
+//STEP 7
+//driveTurnRightDegrees(45)
+
+//STEP 8
+//driveDistance()
+
+//STEP 9
+//driveTurnLeftDegrees(45)
+
+//STEP 10
+//driveDistance()
+
+//STEP 11
+//driveTurnRightDegrees(90)
+
+//STEP 12
+//driveDistnace(-)
+
+//STEP 13
+//drive
