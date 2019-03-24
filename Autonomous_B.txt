@@ -1,7 +1,15 @@
-shoot preload
-move forward 72 inches
-move backwards 96 inches
-turn -90 deg. move to platform
+//shoot preload
+shootPreload();
+//move forward 72 inches
+driveDistance(72);
+//move backwards 96 inches
+driveDistance(96);
+//turn -90 degrees
+driveTurnLeftDegrees(-90);
+//Move forward 60 inches
+driveDistance(60);
+
+
 
 C++:
 Start with the intake facing the flags
@@ -24,7 +32,7 @@ driveDistance(96);
 //STEP 5
 // Turn -90 degrees
 
-driveTurnRightDegrees(-90);
+driveTurnLeftDegrees(-90);
 
 //STEP 6
 // raiseFlipper
