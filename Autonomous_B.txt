@@ -1,15 +1,31 @@
-Drive forward 8 inches
-Shoot the preload
-drive forward and toggle the low flag, 32 inches
-reverse backwards 10 inches
-turn left 90 degrees
-drive to middle flag, 48 inches
-turn right 45 degrees drive forward 6 inches
-reverse back 20 inches
-flip cap
-turn right 45 degrees 
-reverse back 20 inches
-pushes cap
-turn left 45 degrees
-drive onto platform
-PARK
+//Drive forward 8 inches
+  driveDistance(8);
+//Shoot the preload
+  shootPreload();
+//drive forward and toggle the low flag, 32 inches
+  driveDistance(32);
+//reverse backwards 10 inches
+  driveDistance(10);
+//turn left 90 degrees
+  driveTurnLeftDegrees(90);
+//drive to middle flag, 48 inches
+  driveDistance(48);
+//turn right 45 degrees drive forward 6 inches
+  driveTurnRightDegrees(45);
+  driveDistance(6);
+//reverse back 20 inches
+  driveDistance(-20);
+//flip cap
+  raiseFlipper();
+  lowerFlipper();
+//turn right 45 degrees 
+  driveTurnRightDegrees(45);
+//reverse back 20 inches
+  driveDistance(-20);
+//pushes cap
+  driveDistance(15);
+//turn left 45 degrees
+  driveTurnLeftDegrees(45);
+//drive onto platform
+  driveDistance(15);
+
