@@ -4,7 +4,7 @@
 // start with fillper facing the cone
 
 // move forward 48 inches
-driveDistaance(48)
+driveDistance(48)
 // Use flipper
 raiseFlipper();
 // Bring flipper down
