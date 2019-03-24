@@ -1,4 +1,4 @@
-Task()
+task main()
 {
 //Drive forward 8 inches
   driveDistance(8);
