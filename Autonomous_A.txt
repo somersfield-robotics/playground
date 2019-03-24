@@ -1,8 +1,13 @@
-shoot preload
-move forward 72 inches
-move backwards 96 inches
-turn 90 deg. 
-move to platform
+//shoot preload
+shootPreload();
+//move forward 72 inches
+driveDistance(72);
+//move backwards 96 inches
+driveDistance(96);
+//turn 90 deg.
+driveTurnRightDegrees(90);
+//Move forwards 60 inches
+driveDistance(60);
 
 C++:
 Start with the intake facing the flags
