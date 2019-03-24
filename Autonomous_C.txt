@@ -1,12 +1,25 @@
-Shoot the preload- TOP FLAG ¯\_(ツ)_/¯ BOOM!
-turn right 90 degrees
-drive forward 38 inches, pushing cap
-pick up ball using intake
-reverse backwords 38 inches
-turn left 40 degrees
-shoot ball, hitting the top middle flag
-turn left 95 degrees
-reverse backwards 48 inches
-flip cap
-turn right 45 degrees
-drive onto platform 50 inches
+//Shoot the preload- TOP FLAG ¯\_(ツ)_/¯ BOOM!
+  shootPreload();
+//turn right 90 degrees
+  driveTurnRightDegrees(90);
+//drive forward 38 inches, pushing cap
+  driveDistance(38);
+//pick up ball using intake
+  startIntake();
+//reverse backwords 38 inches
+  driveDistance(-38);
+//turn left 40 degrees
+  driveTurnLeftDegrees(40);
+//shoot ball, hitting the top middle flag
+  shootPreload();
+//turn left 95 degrees
+  driveTurnLeftDegrees(95);
+//reverse backwards 48 inches
+  driveDistance(-48);
+//flip cap
+  raiseFlipper();
+  lowerFlipper();
+//turn right 45 degrees
+  driveTurnRightDegrees(45);
+//drive onto platform 50 inches
+  driveDistance(50);
