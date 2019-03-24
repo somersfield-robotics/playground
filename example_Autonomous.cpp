@@ -15,7 +15,7 @@ task main()
 
   // Flip cap
   raiseFlipper();
-  lowereFlipper();
+  lowerFlipper();
 
   // Turn left 90 degrees
   driveTurnLeftDegrees(90);
