@@ -7,7 +7,7 @@ Move forward 36 inches
 Move backward 24 inches
 Turn left 90 degrees
 Move forward 12 inches
-Flic cap
+Flip cap
 Turn right 135 degrees
 Move forward 24 inches
 Turn left 45 degrees 
@@ -48,41 +48,62 @@ driveDistance(-24);
 driveTurnLeftDegrees(90);
 
 //STEP 6
+// Move forward 12 inches
+
+driveDistance(12);
+
+//STEP 7
+// Flip cap
+
+raiseFlipper();
+lowerFlipper();
+
+//STEP 8
+// Turn right 135 degrees
+
+driveTurnRightDegrees(135);
+
+//STEP 9
 // Move forward 24 inches
 
 driveDistance(24);
 
-//STEP 7
+//STEP 10
+// Turn left 45 degrees 
+
+driveTurnLeftDegrees(45);
+
+//STEP 11
+// Move forward 12 inches
+
+driveDistance(12);
+
+//STEP 12
+// Move backward 48 inches 
+
+driveDistance(48);
+
+//STEP 13
+// Turn right 90 degrees
+
+driveTurnRightDegrees(90);
+
+//STEP 14
+// Move backward 12 inches
+
+driveDistance(90);
+
+//STEP 15
+// Raise flipper
+
+raiseFlipper();
+
+//STEP 16
 // Turn left 90 degrees
 
 driveTurnLeftDegrees(90);
 
-//STEP 8
-// Move forward 48 inches
+//STEP 17
+// Move backward 24 inches
 
-driveDistance(48);
-
-//STEP 9
-// Turn right 90 degrees
-
-driveTurnRightDegrees(90);
-
-//STEP 10
-// Move forward 24 inches
-
-driveDistance(24);
-
-//STEP 11
-// Shoot preload
-
-shootPreload();
-
-//STEP 12
-// Turn right 90 degrees
-
-driveTurnRightDegrees(90);
-
-//STEP 13
-// Move forward 30 inches
-
-driveDistance(30);
+driveDistance(-24);
