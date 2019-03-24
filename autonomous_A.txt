@@ -18,7 +18,9 @@
 // flip cap
 // turn 90 deg.
 // move forward 87 inches
+// raise flipper
 // climb platforms
+// lower flipper
 
 C++:
 Start with the intake facing the flags
@@ -85,4 +87,10 @@ driveDistance(60);
 // move forward 87 inches
 
 // STEP 18
+// raise flipper
+
+// STEP 19
 // climb platforms
+
+// STEP 20
+// lower flipper
