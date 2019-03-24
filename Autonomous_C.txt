@@ -1,3 +1,5 @@
+task main()
+{
 //Shoot the preload- TOP FLAG ¯\_(ツ)_/¯ BOOM!
   shootPreload();
 //turn right 90 degrees
@@ -23,3 +25,4 @@
   driveTurnRightDegrees(45);
 //drive onto platform 50 inches
   driveDistance(50);
+}
