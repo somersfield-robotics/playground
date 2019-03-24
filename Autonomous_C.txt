@@ -1,9 +1,15 @@
-move backwards 24 inches
-shoot preload
-turn 90 degrees
-move forward 60 inches
-turn -90 degrees
-move forward 24 inches
+//move backwards 24 inches
+driveDistance(24);
+//shoot preload
+shootPreload();
+//turn 90 degrees
+driveTurnRightDegrees(90);
+//move forward 60 inches
+driveDistance(60);
+//turn -90 degrees
+driveTurnLeftDegrees(-90);
+//move forward 24 inches
+driveDistance(24);
 
 
 //STEP 1
