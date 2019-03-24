@@ -1,21 +1,44 @@
 This Code is for the Near, Red Flag CODE!!!!!!
 Pseudo
-Drive forward 8 inches
-Shoot Preload
-Drive and toggle bottom flag, 32 inches 
-Reverse back 16 inches
-Turn right 90 degrees
-Drive to middle flag, 48 inches
-Turn to middle flag, left 45 degrees
-Drive forward and toggle, 5 inches
-Reverse backward, 33 inches
-Flip cap
-Get in line with pushy cap, by turning and driving, left 45 degrees, and reverse back 24 inches
-turn to face le cap, right 90 degrees
-push cap with intake, start intake and drive 36 inches
-reverse back 60 inches
-turn left 90 degrees
-reverse back 18 inches
-shoot the ball!! Top flag boiis
-turn right 90 degrees to face the platform
-drive onto platform, 24 inches. 
+//Drive forward 8 inches
+  driveDistance(8);
+//Shoot Preload
+  shootPreload();
+//Drive and toggle bottom flag, 32 inches 
+  driveDistance(32);
+//Reverse back 16 inches
+  driveDistance(-16);
+//Turn right 90 degrees
+  driveTurnRightDegrees(90);
+//Drive to middle flag, 48 inches
+  driveDistance(48);
+//Turn to middle flag, left 45 degrees
+  driveTurnLeftDegrees(45);  
+//Drive forward and toggle, 5 inches
+   driveDistance(5);
+//Reverse backward, 33 inches
+  driveDistance(-33);
+//Flip cap
+  raiseFlipper();
+  lowerFlipper();
+//Get in line with pushy cap, by turning and driving, left 45 degrees, and reverse back 24 inches
+  driveTurnLeftDegrees(45);
+  driveDistance(-24);
+//turn to face le cap, right 90 degrees
+  driveTurnRightDegrees(90);
+//push cap with intake, start intake and drive 36 inches
+  startIntake();
+  driveDistance(36);
+//reverse back 60 inches
+  driveDistance(-60);
+//turn left 90 degrees
+  driveTurnLeftDegrees(90);
+//reverse back 18 inches
+  driveDistance(-18);
+//shoot the ball!! Top flag boiis
+  shootPreload();
+//turn right 90 degrees to face the platform
+  driveTurnRightDegrees(90);
+//drive onto platform, 24 inches. 
+  driveDistance(24);
+
