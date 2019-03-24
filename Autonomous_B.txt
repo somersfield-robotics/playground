@@ -1,3 +1,5 @@
+TaskMain()
+{
 //Drive forward 8 inches
   driveDistance(8);
 //Shoot the preload
@@ -28,4 +30,4 @@
   driveTurnLeftDegrees(45);
 //drive onto platform
   driveDistance(15);
-
+}
