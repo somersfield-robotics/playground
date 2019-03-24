@@ -1,0 +1,8 @@
+int joystickSensitivityFunction(int joystickValue)
+{
+int newValue = 0;
+int maxRange = 100;
+
+newValue = ( joystickValue^3 ) / ( maxRange^3 ) * 127
+return(newValue);
+}
