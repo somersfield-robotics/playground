@@ -1,1 +1,85 @@
+Pseudocode:
+Start with the intake facing the flags 
 
+Move backward 24 inches
+Turn right 90 degrees 
+Move backward 36 inches 
+Flip cap
+Turn left 90 degrees
+Move forward 24 inches
+Turn right 90 degrees
+Move forward 48 inches
+Turn left 90 degrees
+Move forward 24 inches
+Shoot preload
+Turn left 90 degrees
+Move forward 30 inches
+
+C++:
+Start with the intake facing the flags
+
+//STEP 1
+// Move backward 24 inches
+
+driveDistance(-24);
+ 
+//STEP 2
+// Turn left 90 degrees 
+
+driveTurnRightDegrees(90);
+
+//STEP 3
+// Move backward 36 inches 
+
+driveDistance(-36);
+
+//STEP 4
+// Flip cap
+
+raiseFlipper();
+lowerFlipper();
+
+//STEP 5
+// Turn right 90 degrees
+
+driveTurnLeftDegrees(90);
+
+//STEP 6
+// Move forward 24 inches
+
+driveDistance(24);
+
+//STEP 7
+// Turn left 90 degrees
+
+driveTurnRightDegrees(90);
+
+//STEP 8
+// Move forward 48 inches
+
+driveDistance(48);
+
+//STEP 9
+// Turn right 90 degrees
+
+driveTurnLeftDegrees(90);
+
+//STEP 10
+// Move forward 24 inches
+
+driveDistance(24);
+
+//STEP 11
+// Shoot preload
+
+shootPreload();
+
+//STEP 12
+// Turn right 90 degrees
+
+driveTurnLeftDegrees(90);
+
+//STEP 13
+// Move forward 30 inches
+
+driveDistance(30);
