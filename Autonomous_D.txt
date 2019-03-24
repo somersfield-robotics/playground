@@ -1,3 +1,5 @@
+task main()
+{
 //shoot preload
   shootPreload();
 //turn right 45 degrees
@@ -15,3 +17,4 @@
   driveTurnRgghtDegrees(45);
 //drive onto platform, 20 inches
   driveDistance(20);
+}
