@@ -5,7 +5,7 @@ int newValue = 0;
 int maxRange = 100;
 int maxMotorPower = 127;
 
-newValue = ( joystickValue^3 ) / ( maxRange^3 ) * maxMotorPower
+newValue = ( joystickValue^3 ) / ( maxRange^3 ) * maxMotorPower;
 //What it comes back with
 return(newValue);
 }
