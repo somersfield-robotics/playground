@@ -1,0 +1,18 @@
+// Pseudocode
+// Start facing flag
+
+// Shoot preload
+shootPreload
+// move forward 48 inches
+driveDistance (48);
+// move backward 48 inches
+driveDistance (-48);
+// turn right 90 degrees 
+driveTurnRightDegrees (90)
+// flip cap
+raiseFlipper();
+lowerFlipper();
+// turn right 90 degrees
+driveTurnRightDegrees (90);
+// move forward 48 inches
+driveDistance (48);
